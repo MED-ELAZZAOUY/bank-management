@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="parent" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="744.0" prefWidth="1101.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane fx:id="root" prefHeight="744.0" prefWidth="1101.0">
+         <children>
+            <HBox layoutX="49.0" layoutY="33.0">
+               <children>
+                  <ImageView fitHeight="25.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/icons8-dashboard-layout-24.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets top="5.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Label prefHeight="33.0" prefWidth="271.0" text="Employee Home">
+                     <font>
+                        <Font name="Corbel Bold" size="28.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="15.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+            <Pane layoutX="64.0" layoutY="116.0" prefHeight="171.0" prefWidth="311.0" style="-fx-background-color: white; -fx-background-radius: 30;">
+               <children>
+                  <ImageView fitHeight="55.0" fitWidth="101.0" layoutX="25.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/icons8-users-64.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="100.0" layoutY="37.0" prefHeight="23.0" prefWidth="179.0" text="Clients" textFill="#f9a80c">
+                     <font>
+                        <Font name="Corbel Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="rhNumber" layoutX="117.0" layoutY="64.0" prefHeight="66.0" prefWidth="77.0" textFill="#f9a80c">
+                     <font>
+                        <Font name="Corbel Bold" size="66.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+
+</AnchorPane>
