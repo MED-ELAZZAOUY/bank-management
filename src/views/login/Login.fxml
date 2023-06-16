@@ -34,7 +34,7 @@
                         </Label>
                         <ImageView fitHeight="285.0" fitWidth="386.0" layoutX="14.0" layoutY="138.0" pickOnBounds="true" smooth="false">
                            <image>
-                              <Image url="@../images/side.png" />
+                              <Image url="@../../images/side.png" />
                            </image>
                         </ImageView>
                         <Label layoutX="585.0" layoutY="115.0" textFill="#172452">
@@ -63,7 +63,7 @@
                         <JFXButton layoutX="486.0" layoutY="376.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="35.0" prefWidth="260.0" style="-fx-background-color: #FFCD07; -fx-background-radius: 50px;" text="LOG IN" />
                         <ImageView fitHeight="78.0" fitWidth="234.0" layoutX="502.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../images/logo.png" />
+                              <Image url="@../../images/logo.png" />
                            </image>
                         </ImageView>
                      </children>

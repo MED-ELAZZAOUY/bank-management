@@ -11,7 +11,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/Desktop/Hicham_projectjavaFX/controlsfx-8.40.11.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../src_code_project/Hicham_projectjavaFX/controlsfx-8.40.11.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -20,7 +20,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/Desktop/Hicham_projectjavaFX/fontawesomefx-8.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../src_code_project/Hicham_projectjavaFX/fontawesomefx-8.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -29,7 +29,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/Desktop/Hicham_projectjavaFX/x/jfoenix-19.0.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../src_code_project/Hicham_projectjavaFX/x/jfoenix-19.0.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
